@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    align-items: center;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
+body{
+    height: 100vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(11, 11, 11, 0.844);
+    font-family: 'Inter', sans-serif;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.btn-sexo{
+    border: 2px solid gray;
+    border-radius: 999px;
+    padding: 8px 20px;
+    cursor:pointer;
+    flex: 1;
+    text-align: center;
+        
+}
+
+.btn-sexo:has(input:checked){
+    background-color: green;
+    color: white
+    
+}
+
+.altura-peso{
+    display: flex;
+    gap: 10px;
+     text-align: center;
+    
+}
+input {
+    width: 100px;
+    padding: 8px 12px;
+}
+
+.sexo {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+input[type="radio"] {
+    appearance: none;
+    border: none;
+    width:0;
+    height:0;
+       
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
+
+h1 {
+    font-weight: 700;
+}
+h2 {
+    font-weight: 400;
+    color: gray;
+}
+.btn-verificar{
+    background-color: green;
+    border: solid green;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.card-resultado{
+ background-color: #e8f5e9;
+ border-radius: 15px;
+ padding: 20px;
+ width: 150px;
+ text-align: center;
+}
+
+.numero-imc {
+font-size: 40px;
+font-weight: 700;
+color: green;
+margin: 8px 0;
+}
+
+.categoria {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-weight: 500;
+}
+

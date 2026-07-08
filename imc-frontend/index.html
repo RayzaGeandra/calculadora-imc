@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <i class="fa-solid fa-heart-pulse"></i>
+        <h1>Calculadora de IMC</h1>
+        <h2>Descubra seu índice de massa corporal</h2>
+        <div class="sexo">
+            <label class="btn-sexo">
+                <input type="radio" name="sexo" value="feminino" checked autocomplete="off">Feminino
+            </label>
+            <label class="btn-sexo">
+                <input type="radio" name="sexo" value="masculino" autocomplete="off">Masculino
+            </label>
+        </div>
+            <div class="altura-peso">
+                <div class="altura">
+                    <input type="text" id="input-altura"> Altura
+                </div>
+                <div class="peso">
+                    <input type="text" id="input-peso"> Peso
+                </div>
+            </div>
+        <div>
+            <button class="btn-verificar">
+                Verificar IMC
+            </button>
+        </div>
+        <div class="card-resultado">
+            
+            
+            <p class="categoria">Peso ideal</p>
+        </div>
+        
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>
