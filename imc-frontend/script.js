@@ -13,5 +13,5 @@ verificarImc.addEventListener("click", function() {
     .then(function(dado) {
         calcularImc.textContent = `Resultado do IMC: ${dado.toFixed(2)}`
     })
-});
+}); 
 

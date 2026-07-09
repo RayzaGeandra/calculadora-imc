@@ -14,7 +14,7 @@
     margin: 0 auto;
     background-color: white;
     
-}
+} 
 
 body{
     height: 100vh;
@@ -110,7 +110,7 @@ font-weight: 700;
 color: green;
 margin: 8px 0;
 }
-
+/*
 .categoria {
     display: inline-block;
     background-color: green;
@@ -118,5 +118,5 @@ margin: 8px 0;
     padding: 6px 16px;
     border-radius: 999px;
     font-weight: 500;
-}
+}/*
 
